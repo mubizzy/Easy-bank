@@ -11,7 +11,7 @@ function Content() {
         </p>
       </article>
 
-      <div class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4 max-w-7xl mx-auto">
         <article>
           <img
             src="./images/icon-online.svg"

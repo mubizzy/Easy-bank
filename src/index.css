@@ -3,12 +3,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-:root {
-  font-family: "Public Sans", sans-serif;
-  font-size: 18px;
+img {
+  max-width: 100%;
+}
 
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body {
+  font-family: "Public Sans", sans-serif;
+  background-color: hsl(0, 0%, 98%);
+  @apply lg:overflow-x-hidden;
+}
+
+nav {
+  @apply absolute -left-full transition-all duration-500 lg:left-0 lg:relative;
+}
+
+nav.open {
+  @apply absolute left-auto top-20 w-11/12 bg-white z-50 p-8 rounded-lg lg:bg-transparent lg:relative lg:left-0 lg:top-0 lg:w-auto lg:p-0 lg:rounded-none lg:shadow-none;
+  box-shadow: 0 200px 300px rgba(0, 0, 0, 0.8);
+}
+
+@media (min-width: 1024px) {
+  nav.open {
+    box-shadow: none;
+  }
+}
+
+nav ul {
+  @apply flex flex-col items-center justify-center gap-4 lg:gap-8 lg:flex-row;
+}
+
+nav ul li button {
+  @apply lg:text-slate-900 lg:opacity-75 lg:text-sm;
+}
+
+h2 {
+  @apply text-slate-800 text-2xl lg:text-3xl mb-6;
+}
+
+h3 {
+  @apply text-slate-800 text-xl lg:text-2xl mb-6;
+}
+
+p {
+  @apply text-slate-900 opacity-75 text-sm leading-relaxed mb-8 lg:text-base;
 }
 
 .btn {
@@ -20,8 +57,15 @@
   @apply text-white font-bold py-3 px-6 rounded-full;
 }
 
-body {
-  font-family: "Public Sans", sans-serif;
-  background-color: hsl(0, 0%, 98%);
-  @apply lg:overflow-x-hidden;
+footer {
+  background-color: hsl(233, 26%, 24%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }

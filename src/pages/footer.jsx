@@ -6,7 +6,7 @@ function Footer() {
       <div class="md:grid md:grid-cols-2 md:gap-8 lg:grid-cols-4 max-w-7xl mx-auto">
         <div>
           <article>
-            <img src="./images/footer-logo.svg" alt="" class="block mx-auto" />
+            <img src="./images/logo.svg" alt="" class="block mx-auto" />
           </article>
 
           <article class="my-8">

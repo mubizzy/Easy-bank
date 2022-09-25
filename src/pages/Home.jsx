@@ -20,7 +20,7 @@ const Home = () => {
         <picture>
           <source
             media="(min-width: 768px)"
-            srcset="./images/bg-intro-desktop.svg"
+            srcSet="./images/bg-intro-desktop.svg"
           />
           <img src="./images/bg-intro-mobile.svg" alt="" className="w-full" />
         </picture>

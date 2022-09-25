@@ -3,6 +3,7 @@ import Nav from "./pages/nav";
 import Home from "./pages/Home";
 import Content from "./pages/Content";
 import Distro from "./pages/Distro";
+import Footer from "./pages/footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <Content />
       <Distro />
+      <Footer />
     </>
   );
 }

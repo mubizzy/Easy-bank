@@ -78,11 +78,13 @@ function Distro() {
             className="rounded-t-lg md:h-56 md:object-cover w-full lg:w-72"
           />
 
-          <article class="p-8 bg-white shadow rounded-b-lg">
-            <h3 class="text-sm text-slate-800 opacity-75">
+          <article className="p-8 bg-white shadow rounded-b-lg">
+            <h3 className="text-sm text-slate-800 opacity-75">
               By Claire Robinson
             </h3>
-            <h2 class="text-xl">Our invite-only Beta accounts are now live!</h2>
+            <h2 className="text-xl">
+              Our invite-only Beta accounts are now live!
+            </h2>
             <p>
               After a lot of hard work by the whole team, we’re excited to
               launch our closed beta. It’s easy to request an invite through the

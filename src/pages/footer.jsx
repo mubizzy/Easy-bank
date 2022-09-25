@@ -1,6 +1,6 @@
 import React from "react";
 
-function footer() {
+function Footer() {
   return (
     <footer class="py-10 px-5 xl:px-0">
       <div class="md:grid md:grid-cols-2 md:gap-8 lg:grid-cols-4 max-w-7xl mx-auto">
@@ -62,4 +62,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;

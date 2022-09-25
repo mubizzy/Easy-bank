@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <section className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-8 lg:place-items-center">
-      <article className="px5- py-20 text-center max-w-xl mx-auto lg:text-left">
+      <article className="px5- py-20  text-center max-w-xl  mx-auto lg:text-left m-auto">
         <h1 className="text-slate-800 text-3xl mb-6 lg:text-5xl md:mt-7 ">
           Next generation digital banking
         </h1>

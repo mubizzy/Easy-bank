@@ -2,9 +2,9 @@ import React from "react";
 
 function Distro() {
   return (
-    <section class="px-5 py-20">
-      <article class="max-w-7xl mx-auto">
-        <h2 class="text-center md:text-left">Latest Articles</h2>
+    <section className="px-5 py-20">
+      <article className="max-w-7xl mx-auto">
+        <h2 className="text-center md:text-left">Latest Articles</h2>
       </article>
 
       <div class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4 max-w-7xl mx-auto">

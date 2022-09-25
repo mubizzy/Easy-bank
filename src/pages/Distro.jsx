@@ -35,7 +35,7 @@ function Distro() {
           <img
             src="./images/image-restaurant.jpg"
             alt=""
-            class="rounded-t-lg md:h-56 md:object-cover w-full lg:w-72"
+            className="rounded-t-lg md:h-56 md:object-cover w-full lg:w-full"
           />
 
           <article className="p-8 bg-white shadow rounded-b-lg">
@@ -56,7 +56,7 @@ function Distro() {
           <img
             src="./images/image-plane.jpg"
             alt=""
-            className="rounded-t-lg md:h-56 md:object-cover w-full lg:w-72"
+            className="rounded-t-lg md:h-56 md:object-cover w-full lg:w-full"
           />
 
           <article className="p-8 bg-white shadow rounded-b-lg">
@@ -75,7 +75,7 @@ function Distro() {
           <img
             src="./images/image-confetti.jpg"
             alt=""
-            className="rounded-t-lg md:h-56 md:object-cover w-full lg:w-72"
+            className="rounded-t-lg md:h-56 md:object-cover w-full lg:w-full"
           />
 
           <article className="p-8 bg-white shadow rounded-b-lg">

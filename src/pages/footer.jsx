@@ -34,25 +34,25 @@ function Footer() {
           <ul class="text-center md:text-left flex flex-col items-center justify-center md:justify-start md:items-start gap-2">
             <li class="text-white">About Us</li>
             <li class="text-white">Contact</li>
-            <li class="text-white">Blog</li>
+            <li className="text-white">Blog</li>
           </ul>
         </article>
 
-        <article class="mb-8 md:m-0">
+        <article className="mb-8 md:m-0">
           <ul class="text-center md:text-left flex flex-col items-center justify-center md:justify-start md:items-start gap-2">
-            <li class="text-white">Careers</li>
-            <li class="text-white">Support</li>
-            <li class="text-white">Privacy Policy</li>
+            <li className="text-white">Careers</li>
+            <li className="text-white">Support</li>
+            <li className="text-white">Privacy Policy</li>
           </ul>
         </article>
 
-        <div class="md:text-right">
-          <article class="text-center md:text-right">
+        <div className="md:text-right">
+          <article className="text-center md:text-right">
             <button class="btn">Request Invite</button>
           </article>
 
           <article>
-            <p class="text-slate-400 text-center my-8 md:text-right">
+            <p className="text-slate-400 text-center my-8 md:text-right">
               © Easybank. All Rights Reserved
             </p>
           </article>
